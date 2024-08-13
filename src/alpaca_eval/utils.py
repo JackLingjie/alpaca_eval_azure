@@ -12,7 +12,7 @@ import time
 from collections import Counter
 from pathlib import Path
 from typing import Any, Callable, Optional, Sequence, Union
-
+from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 import datasets
 import numpy as np
 import numpy.typing as npt
@@ -531,7 +531,7 @@ def get_all_clients(
             all_client_configs = yaml.safe_load(f)
 
         client_configs = []
-
+        print(f"all_client_configs: {all_client_configs}")
         if model_name in all_client_configs:
             if "default" in all_client_configs[model_name]:
                 assert "default" in all_client_configs, "default client was asked for but not found"
@@ -557,13 +557,26 @@ def get_all_clients(
             "recommended way of specifying client configs."
         )
         client_configs = get_backwards_compatible_configs(**backward_compatibility_kwargs)
-
+    print(f"client_configs:{client_configs}")
     all_clients = []
     for config in client_configs:
         client_class = config.pop("client_class", default_client_class)
         ClientClass = import_class(client_class)
+        print(f"config: {config};\n kwargs: {kwargs}")
+        if "identity_id" in config:
+            try:
+                token_provider = get_bearer_token_provider(
+                    DefaultAzureCredential(managed_identity_client_id=config["identity_id"]),
+                    "https://cognitiveservices.azure.com/.default"
+                )
+                config["azure_ad_token_provider"] = token_provider
+                print("provider")
+                del config["identity_id"]
+            except:
+                continue
         all_clients.append(ClientClass(**config, **kwargs))
-
+        print(f"all_clients: {all_clients}")
+    print(f"all_clients: {all_clients}")
     return all_clients
 
 

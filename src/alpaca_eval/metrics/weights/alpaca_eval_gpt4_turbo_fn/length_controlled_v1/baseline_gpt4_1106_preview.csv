@@ -1,0 +1,2 @@
+,np.tanh(std_delta_len),instruction_difficulty,not_gamed_baseline.astype(float)
+text_davinci_003,-1.8779414042275084,0.7539226647420575,-0.1508413143420818
