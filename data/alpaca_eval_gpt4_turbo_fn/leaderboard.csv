@@ -1,2 +1,2 @@
 ,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
-tulu-lora-sft-llama3-8b-base,2.484472049689441,0.5489413189456964,community,2974,20,785,0,805,2.484472049689441,1.3067728938180632,0.03738076617127837
+tulu_v2_8b_bsz64_default_template_dpo,8.385093167701864,0.9675529341507961,community,1108,65,735,5,805,8.385093167701864,14.451550892190983,0.37305430977048126

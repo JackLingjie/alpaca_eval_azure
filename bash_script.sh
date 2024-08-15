@@ -26,3 +26,12 @@ CUDA_VISIBLE_DEVICES=1 python generate_response.py --model-path "/mnt/lingjiejia
 
 alpaca_eval --model_outputs './data/tulu-dpo-llama3-8b-base.json' \
 --annotators_config 'alpaca_eval_gpt4_turbo_fn'   
+
+
+alpaca_eval --model_outputs './data/tulu_lora_sft_base_template_8b.json' \
+--annotators_config 'alpaca_eval_gpt4_turbo_fn'   
+
+alpaca_eval --model_outputs './data/tulu_lora_sft_default_template_8b.json' \
+--annotators_config 'alpaca_eval_gpt4_turbo_fn'   
+
+bash eval_script/tulu_default_template_dpo.sh tulu_v2_8b_bsz64_default_template_dpo

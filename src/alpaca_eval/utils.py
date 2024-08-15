@@ -531,7 +531,7 @@ def get_all_clients(
             all_client_configs = yaml.safe_load(f)
 
         client_configs = []
-        print(f"all_client_configs: {all_client_configs}")
+        # print(f"all_client_configs: {all_client_configs}")
         if model_name in all_client_configs:
             if "default" in all_client_configs[model_name]:
                 assert "default" in all_client_configs, "default client was asked for but not found"
@@ -557,7 +557,7 @@ def get_all_clients(
             "recommended way of specifying client configs."
         )
         client_configs = get_backwards_compatible_configs(**backward_compatibility_kwargs)
-    print(f"client_configs:{client_configs}")
+    # print(f"client_configs:{client_configs}")
     all_clients = []
     for config in client_configs:
         client_class = config.pop("client_class", default_client_class)
@@ -575,8 +575,8 @@ def get_all_clients(
             except:
                 continue
         all_clients.append(ClientClass(**config, **kwargs))
-        print(f"all_clients: {all_clients}")
-    print(f"all_clients: {all_clients}")
+    #     print(f"all_clients: {all_clients}")
+    # print(f"all_clients: {all_clients}")
     return all_clients
 
 
