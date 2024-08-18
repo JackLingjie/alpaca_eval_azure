@@ -568,14 +568,28 @@ def get_all_clients(
                 token_provider = get_bearer_token_provider(
                     DefaultAzureCredential(managed_identity_client_id=config["identity_id"]),
                     "https://cognitiveservices.azure.com/.default"
-                )
+                ) 
                 config["azure_ad_token_provider"] = token_provider
-                print("provider")
                 del config["identity_id"]
+                for endpoint in config["azure_endpoint"]:
+                    temp_config = config
+                    temp_config["azure_endpoint"] = endpoint
+                    print(f"endponit: {endpoint}")
+                    all_clients.append(ClientClass(**temp_config, **kwargs))
+                 
+            
+            # try:
+            #     token_provider = get_bearer_token_provider(
+            #         DefaultAzureCredential(managed_identity_client_id=config["identity_id"]),
+            #         "https://cognitiveservices.azure.com/.default"
+            #     )
+            #     config["azure_ad_token_provider"] = token_provider
+            #     print("provider")
+            #     del config["identity_id"]
             except:
                 continue
         all_clients.append(ClientClass(**config, **kwargs))
-    #     print(f"all_clients: {all_clients}")
+        print(f"all_clients: {all_clients}")
     # print(f"all_clients: {all_clients}")
     return all_clients
 
