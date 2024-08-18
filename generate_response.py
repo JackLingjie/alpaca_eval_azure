@@ -11,8 +11,8 @@ args = parser.parse_args()
 path_dir = args.model_path
 model_name = args.model_name 
 
-template = "{{ '<|begin_of_text|>' }}{% if messages[0]['role'] == 'system' %}{% set system_message = messages[0]['content'] %}{% endif %}{% if system_message is defined %}{{ '<|start_header_id|>system<|end_header_id|>\n\n' + system_message + '<|eot_id|>' }}{% endif %}{% for message in messages %}{% set content = message['content'] %}{% if message['role'] == 'user' %}{{ '<|start_header_id|>user<|end_header_id|>\n\n' + content + '<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n' }}{% elif message['role'] == 'assistant' %}{{ content + '<|eot_id|>' }}{% endif %}{% endfor %}"
-
+# template = "{{ '<|begin_of_text|>' }}{% if messages[0]['role'] == 'system' %}{% set system_message = messages[0]['content'] %}{% endif %}{% if system_message is defined %}{{ '<|start_header_id|>system<|end_header_id|>\n\n' + system_message + '<|eot_id|>' }}{% endif %}{% for message in messages %}{% set content = message['content'] %}{% if message['role'] == 'user' %}{{ '<|start_header_id|>user<|end_header_id|>\n\n' + content + '<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n' }}{% elif message['role'] == 'assistant' %}{{ content + '<|eot_id|>' }}{% endif %}{% endfor %}"
+template = "{% if messages[0]['role'] == 'system' %}{% set system_message = messages[0]['content'] %}{% endif %}{% if system_message is defined %}{{ system_message + '\n' }}{% endif %}{% for message in messages %}{% set content = message['content'] %}{% if message['role'] == 'user' %}{{ 'Human: ' + content + '\nAssistant:' }}{% elif message['role'] == 'assistant' %}{{ content + '<|end_of_text|>' + '\n' }}{% endif %}{% endfor %}"
 
 # model_name = "Meta-Llama-3.1-8B-Instruct"
 # model_name = "Meta-Llama-3.1-8B"
@@ -22,17 +22,6 @@ llm = LLM(model=f"{path_dir}/{model_name}")
 print(f"model name: {model_name}")
 print(f"model_path: {path_dir}/{model_name}")
 
-tokenizer = llm.get_tokenizer()
-if tokenizer.chat_template is None:
-    tokenizer.chat_template = template
-    tokenizer.chat_template = tokenizer.chat_template.replace("<|eot_id|>", tokenizer.eos_token)
-    tokenizer.chat_template
-    print(f"tokenizer.chat_template: {tokenizer.chat_template}")
-    print("tokenizer is None, use setted template")
-else:
-    print("use original template")
-# messages = tokenizer.apply_chat_template(messages, tokenize=False)
-
 gen_kwargs_vllm = {
     "max_tokens": 1024,
     "top_p": 0.9,
@@ -40,7 +29,20 @@ gen_kwargs_vllm = {
     "temperature": 0.0,
     "repetition_penalty": 1.0,
 }
-gen_kwargs_vllm['stop_token_ids'] = [tokenizer.eos_token_id, tokenizer.convert_tokens_to_ids("<|end_of_text|>")]
+tokenizer = llm.get_tokenizer()
+if tokenizer.chat_template is None:
+    tokenizer.chat_template = template
+    tokenizer.chat_template = tokenizer.chat_template.replace("<|eot_id|>", tokenizer.eos_token)
+    # tokenizer.chat_template
+    gen_kwargs_vllm['stop_token_ids'] = [tokenizer.eos_token_id, tokenizer.convert_tokens_to_ids("<|eot_id|>")]
+    print(f"tokenizer.chat_template: {tokenizer.chat_template}")
+    print("tokenizer is None, use setted template")
+else:
+    gen_kwargs_vllm['stop_token_ids'] = [tokenizer.eos_token_id, tokenizer.convert_tokens_to_ids("<|end_of_text|>")]
+    print("use original template")
+# messages = tokenizer.apply_chat_template(messages, tokenize=False)
+
+
 sampling_params = SamplingParams(**gen_kwargs_vllm)
 
 eval_set = datasets.load_dataset("tatsu-lab/alpaca_eval", "alpaca_eval")["eval"]

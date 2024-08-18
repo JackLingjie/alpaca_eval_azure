@@ -1,2 +1,2 @@
 ,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
-tulu_v2_8b_bsz64_default_template_dpo,8.385093167701864,0.9675529341507961,community,1108,65,735,5,805,8.385093167701864,14.451550892190983,0.37305430977048126
+Meta-Llama-3.1-8B-Instruct,41.48009950248756,1.7353130133855736,community,2124,332,469,3,804,41.48009950248756,39.86052440196123,0.06761515877027967

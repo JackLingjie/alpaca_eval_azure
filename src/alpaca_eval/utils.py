@@ -251,7 +251,7 @@ def load_or_convert_to_dataframe(df=Union[AnyPath, AnyData, Callable, list, tupl
 
     if isinstance(df, (str, os.PathLike, pathlib.Path)):
         df = Path(df)
-
+        print(f"df: {df}")
         # check if it's a globbing pattern
         if "*" in str(df):
             df = pd.concat(
