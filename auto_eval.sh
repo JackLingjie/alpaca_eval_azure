@@ -1,10 +1,12 @@
 #!/bin/bash  
 set -x
+
+export CUDA_VISIBLE_DEVICES=3
 # 参数列表  
 PARAMS=(  
-    "tulu_v2_8b_2048_default_template_sft" 
-    "tulu_v2_8b_2048_default_template_dpo" 
-  # "tulu-2-7b"  
+    # "tulu_v2_8b_2048_default_template_sft" 
+    # "tulu_v2_8b_2048_default_template_dpo" 
+  "tulu-2-7b"  
   # "allenai/tulu-2-dpo-7b"
   # "Meta-Llama-3.1-8B-Instruct"
   # 添加更多参数  

@@ -588,7 +588,7 @@ def get_all_clients(
             #     del config["identity_id"]
             except:
                 continue
-        all_clients.append(ClientClass(**config, **kwargs))
+        # all_clients.append(ClientClass(**config, **kwargs))
         print(f"all_clients: {all_clients}")
     # print(f"all_clients: {all_clients}")
     return all_clients
