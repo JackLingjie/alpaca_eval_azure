@@ -23,7 +23,7 @@ print(f"model name: {model_name}")
 print(f"model_path: {path_dir}/{model_name}")
 
 gen_kwargs_vllm = {
-    "max_tokens": 1024,
+    "max_tokens": 2048,
     "top_p": 0.9,
     "top_k": 50,
     "temperature": 0.0,
