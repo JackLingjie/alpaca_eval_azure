@@ -5,9 +5,15 @@ export CUDA_VISIBLE_DEVICES=3
 
 # 参数列表  
 PARAMS=(  
-    "wildchat_v1_8b_2048_default_template"
-    # "tulu_v2_8b_2048_default_template_sft" 
-    # "tulu_v2_8b_2048_default_template_dpo" 
+    "uf_llama3.1_instruct_dpo_2048_job"
+    "ta_chosen_tuluv2_merge_dpo_2048_default_template"
+    # "ta_chosen_tuluv2_dpo_2048_default_template"
+    # "ta_chosen_llama3.1_instruct_dpo_2048"
+    # "ta_rejected_llama3.1_instruct_dpo_2048" 
+    # "wildchat_v2_8b_2048_default_template_full_sft"
+    # "wildchat_v2_8b_2048_default_template_fullft_e5_9485" 
+    # "wildchat_v2_8b_2048_default_template_fullft_lr5e6_3794" 
+    # "wildchat_v2_8b_2048_default_template_fullft_lr5e6_e5_9485" 
     # "tulu-2-7b"  
     # "tulu_lora_sft_base_template_8b" 
     # "tulu_v2_8b_base_template_dpo" 

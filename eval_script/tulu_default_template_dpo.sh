@@ -10,3 +10,6 @@ python generate_response.py \
 
 alpaca_eval --model_outputs "./data/$MODEL_NAME.json" \
 --annotators_config "alpaca_eval_gpt4_turbo_fn" 
+
+# bak annotation file
+cp data/alpaca_eval_gpt4_turbo_fn/annotations.json "data/annotations_bak/${MODEL_NAME}_annotations.json"  
