@@ -5,8 +5,17 @@ export CUDA_VISIBLE_DEVICES=3
 
 # 参数列表  
 PARAMS=(  
-    "uf_llama3.1_instruct_dpo_2048_job"
-    "ta_chosen_tuluv2_merge_dpo_2048_default_template"
+    "ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v4" 
+    "ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8" 
+    "ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2"
+    "ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v3"
+    "ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v4"
+    # "glan_v2_8b_2048_default_template_9490"
+    # "glanchat_v2_8b_2048_default_template_fullft_lr5e6_e3"
+    # "ta_rejected_llama3.1_instruct_2048_default_template_v2"
+    # "ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8"
+    # "ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2"
+    # "ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v3"
     # "ta_chosen_tuluv2_dpo_2048_default_template"
     # "ta_chosen_llama3.1_instruct_dpo_2048"
     # "ta_rejected_llama3.1_instruct_dpo_2048" 
