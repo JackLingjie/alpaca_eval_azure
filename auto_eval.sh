@@ -5,11 +5,18 @@ export CUDA_VISIBLE_DEVICES=3
 
 # 参数列表  
 PARAMS=(  
-    "ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v4" 
-    "ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8" 
-    "ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2"
-    "ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v3"
-    "ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v4"
+    # "glanchat_v2_8b_2048_default_template_11400"
+      "glanchat_v2_glan_v2_8b_2048_default_template_fullft_lr5e6_e3_fx_glan_9500"
+    # "ta_v2_rejected_noneed_length_tuluv2_dpo_2048_default_template_bsz1_acc8_v2"
+    # "ta_v2_rejected_noneed_tuluv2_dpo_2048_default_template_bsz1_acc8_v2"
+    # "ta_v2_chosen_tuluv2_dpo_2048_default_template_bsz1_acc8_v2"
+    # "ta_v2_chosen_tuluv2_dpo_2048_default_template_bsz1_acc8_v5"
+    # "ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v5"
+    # "ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v4" 
+    # "ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8" 
+    # "ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2"
+    # "ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v3"
+    # "ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v4"
     # "glan_v2_8b_2048_default_template_9490"
     # "glanchat_v2_8b_2048_default_template_fullft_lr5e6_e3"
     # "ta_rejected_llama3.1_instruct_2048_default_template_v2"
