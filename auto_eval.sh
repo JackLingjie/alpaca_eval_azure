@@ -5,6 +5,12 @@ export CUDA_VISIBLE_DEVICES=3
 
 # 参数列表  
 PARAMS=(  
+  "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v2"
+  "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v3"
+  "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_1000"
+  "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_1500"
+  "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_500"
+  "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug"
     # "glanchat_v2_8b_2048_default_template_11400"
       "glanchat_v2_glan_v2_8b_2048_default_template_fullft_lr5e6_e3_fx_glan_9500"
     # "ta_v2_rejected_noneed_length_tuluv2_dpo_2048_default_template_bsz1_acc8_v2"
