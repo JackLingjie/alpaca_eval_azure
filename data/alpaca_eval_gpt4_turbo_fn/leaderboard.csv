@@ -1,2 +1,2 @@
 ,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
-ta_rejected_llama3.1_instruct_2048_default_template_v2-1000,43.1055900621118,1.7465200337724707,community,2014,347,458,0,805,43.1055900621118,44.97840054238075,0.133744143770514
+ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1-1500,0.6840796019900498,0.28413979019952446,community,5956,5,798,1,804,0.6840796019900498,0.3067240987055021,0.014369520730402634
