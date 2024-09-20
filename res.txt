@@ -1,0 +1,50 @@
+To match a string that does not contain 'C:', you can use a negative lookahead assertion in PCRE regex. Here's how you can do it:
+
+```regex
+^(?!.*C:).*
+```
+
+Explanation:
+
+- `^` asserts the start of the line.
+- `(?!` starts a negative lookahead assertion.
+- `.*` matches any character (except newline) 0 or more times.
+- `C:` is the string we want to avoid.
+- `)` ends the negative lookahead assertion.
+- `.*` matches any character (except newline) 0 or more times, allowing the regex to match the rest of the string.
+
+However, if you want to match a string that does not contain 'C:' anywhere in the string, not just at the start, you can use the following regex:
+
+```regex
+^(?!.*C:).*
+```
+
+This will match any string that does not contain 'C:' anywhere in it.
+
+If you want to match a string that does not contain 'C:' at the start, you can use the following regex:
+
+```regex
+^(?!C:).*
+```
+
+This will match any string that does not start with 'C:'.
+
+Here are some examples in PHP:
+
+```php
+$pattern = '/^(?!.*C:).*/';
+$string1 = 'Hello World';
+$string2 = 'Hello C: World';
+
+if (preg_match($pattern, $string1)) {
+    echo "String 1 does not contain 'C:'\n";
+} else {
+    echo "String 1 contains 'C:'\n";
+}
+
+if (preg_match($pattern, $string2)) {
+    echo "String 2 does not contain 'C:'\n";
+} else {
+    echo "String 2 contains 'C:'\n";
+}
+```
