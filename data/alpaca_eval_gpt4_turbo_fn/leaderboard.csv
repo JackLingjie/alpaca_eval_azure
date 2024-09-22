@@ -1,2 +1,2 @@
 ,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
-glanchat_v2.1_8b_2048_default_template_8500_dpo_checkpoint-2756,47.01492537313433,1.7613143687864758,community,3615,378,426,0,804,47.01492537313433,44.79078255390414,0.001235722503060027
+glan_v2_glanchat_v2_8b_2048_default_template_checkpoint-33000,36.691542288557216,1.6939671127223346,community,1866,292,506,6,804,36.691542288557216,41.03477214252942,0.08550818985418249

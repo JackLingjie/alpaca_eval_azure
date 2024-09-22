@@ -24,10 +24,7 @@ print(f"model_path: {path_dir}/{model_name}")
 
 gen_kwargs_vllm = {
     "max_tokens": 2048,
-    "top_p": 0.9,
-    "top_k": 50,
     "temperature": 0.0,
-    "repetition_penalty": 1.0,
 }
 tokenizer = llm.get_tokenizer()
 if tokenizer.chat_template is None:
@@ -52,8 +49,14 @@ def convert_to_message(example):
     example["messages"] = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)  
     return example  
 eval_set = eval_set.map(convert_to_message)
+
+encoded_inputs = tokenizer.batch_encode_plus(  
+    eval_set['messages'],  
+    add_special_tokens=False,
+) 
+input_ids = encoded_inputs['input_ids']  
 # eval_set['messages']
-outputs = llm.generate(eval_set['messages'], sampling_params)
+outputs = llm.generate(prompt_token_ids=input_ids, sampling_params=sampling_params)
 outputs_text = [x.outputs[0].text for x in outputs]
 eval_set = eval_set.remove_columns(["output"])  # Remove the existing 'output' column if it exists  
 eval_set = eval_set.remove_columns(["messages"])
