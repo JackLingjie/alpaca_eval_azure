@@ -114,7 +114,7 @@ echo $LOG_FILE
 # 遍历参数列表  
 for PARAM in "${PARAMS[@]}"; do  
   echo "执行参数: $PARAM" | tee -a $LOG_FILE  
-  CUDA_VISIBLE_DEVICES=0,1,2,3 bash eval_script/gen_res_large.sh $PARAM | tee -a $LOG_FILE  
+  bash eval_script/gen_res_large.sh $PARAM | tee -a $LOG_FILE  
   echo "----------------------------------------" | tee -a $LOG_FILE  
 done  
 
