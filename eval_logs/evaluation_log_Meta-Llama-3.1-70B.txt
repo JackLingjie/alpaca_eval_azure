@@ -1,0 +1,8 @@
+执行参数: Meta-Llama-3.1-70B
+WARNING 09-23 08:53:34 arg_utils.py:766] Chunked prefill is enabled by default for models with max_model_len > 32K. Currently, chunked prefill might not work with some features or models. If you encounter any issues, please disable chunked prefill by setting --enable-chunked-prefill=False.
+INFO 09-23 08:53:34 config.py:820] Chunked prefill is enabled with max_num_batched_tokens=512.
+INFO 09-23 08:53:34 llm_engine.py:174] Initializing an LLM engine (v0.5.4) with config: model='/mnt/lingjiejiang/textual_aesthetics/model_checkpoint/sft_merge_checkpoints/Meta-Llama-3.1-70B', speculative_config=None, tokenizer='/mnt/lingjiejiang/textual_aesthetics/model_checkpoint/sft_merge_checkpoints/Meta-Llama-3.1-70B', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, rope_theta=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None), seed=0, served_model_name=/mnt/lingjiejiang/textual_aesthetics/model_checkpoint/sft_merge_checkpoints/Meta-Llama-3.1-70B, use_v2_block_manager=False, enable_prefix_caching=False)
+INFO 09-23 08:53:41 model_runner.py:720] Starting to load model /mnt/lingjiejiang/textual_aesthetics/model_checkpoint/sft_merge_checkpoints/Meta-Llama-3.1-70B...
+df: data/Meta-Llama-3.1-70B.json
+----------------------------------------
+所有任务已完成。

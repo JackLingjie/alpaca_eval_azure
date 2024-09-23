@@ -29,7 +29,7 @@ gen_kwargs_vllm = {
 tokenizer = llm.get_tokenizer()
 if tokenizer.chat_template is None:
     tokenizer.chat_template = template
-    tokenizer.chat_template = tokenizer.chat_template.replace("<|eot_id|>", tokenizer.eos_token)
+    # tokenizer.chat_template = tokenizer.chat_template.replace("<|eot_id|>", tokenizer.eos_token)
     # tokenizer.chat_template
     gen_kwargs_vllm['stop_token_ids'] = [tokenizer.eos_token_id, tokenizer.convert_tokens_to_ids("<|eot_id|>")]
     print(f"tokenizer.chat_template: {tokenizer.chat_template}")
