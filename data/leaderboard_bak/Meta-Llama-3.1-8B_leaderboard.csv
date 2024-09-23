@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+Meta-Llama-3.1-8B,0.7453416149068323,0.30333680640357275,community,8055,6,799,0,805,0.7453416149068323,0.19589107721692486,0.00685510241858563

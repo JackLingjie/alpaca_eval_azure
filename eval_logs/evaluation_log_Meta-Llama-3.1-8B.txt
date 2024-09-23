@@ -1,0 +1,18 @@
+执行参数: Meta-Llama-3.1-8B
+WARNING 09-22 17:20:07 arg_utils.py:766] Chunked prefill is enabled by default for models with max_model_len > 32K. Currently, chunked prefill might not work with some features or models. If you encounter any issues, please disable chunked prefill by setting --enable-chunked-prefill=False.
+INFO 09-22 17:20:07 config.py:820] Chunked prefill is enabled with max_num_batched_tokens=512.
+INFO 09-22 17:20:07 llm_engine.py:174] Initializing an LLM engine (v0.5.4) with config: model='/mnt/lingjiejiang/textual_aesthetics/model_checkpoint/sft_merge_checkpoints/Meta-Llama-3.1-8B', speculative_config=None, tokenizer='/mnt/lingjiejiang/textual_aesthetics/model_checkpoint/sft_merge_checkpoints/Meta-Llama-3.1-8B', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, rope_theta=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None), seed=0, served_model_name=/mnt/lingjiejiang/textual_aesthetics/model_checkpoint/sft_merge_checkpoints/Meta-Llama-3.1-8B, use_v2_block_manager=False, enable_prefix_caching=False)
+INFO 09-22 17:20:14 model_runner.py:720] Starting to load model /mnt/lingjiejiang/textual_aesthetics/model_checkpoint/sft_merge_checkpoints/Meta-Llama-3.1-8B...
+INFO 09-22 17:20:39 model_runner.py:732] Loading model weights took 14.9888 GB
+INFO 09-22 17:20:39 gpu_executor.py:102] # GPU blocks: 28232, # CPU blocks: 2048
+INFO 09-22 17:20:42 model_runner.py:1024] Capturing the model for CUDA graphs. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI.
+INFO 09-22 17:20:42 model_runner.py:1028] CUDA graphs can take additional 1~3 GiB memory per GPU. If you are running out of memory, consider decreasing `gpu_memory_utilization` or enforcing eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 09-22 17:20:51 model_runner.py:1225] Graph capturing finished in 9 secs.
+model name: Meta-Llama-3.1-8B
+model_path: /mnt/lingjiejiang/textual_aesthetics/model_checkpoint/sft_merge_checkpoints/Meta-Llama-3.1-8B
+tokenizer.chat_template: {% if messages[0]['role'] == 'system' %}{% set system_message = messages[0]['content'] %}{% endif %}{% if system_message is defined %}{{ system_message + '
+' }}{% endif %}{% for message in messages %}{% set content = message['content'] %}{% if message['role'] == 'user' %}{{ 'Human: ' + content + '
+Assistant:' }}{% elif message['role'] == 'assistant' %}{{ content + '<|end_of_text|>' + '
+' }}{% endif %}{% endfor %}
+tokenizer is None, use setted template
+WARNING 09-22 17:23:44 scheduler.py:1099] Sequence group 251 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=1

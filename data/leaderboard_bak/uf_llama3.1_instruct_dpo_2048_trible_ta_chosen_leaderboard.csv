@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+uf_llama3.1_instruct_dpo_2048_trible_ta_chosen,38.881987577639755,1.7192174691380253,community,1720,313,492,0,805,38.881987577639755,44.90647887396947,0.043070569923215875
