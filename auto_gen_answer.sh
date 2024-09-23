@@ -8,7 +8,7 @@ PARAMS=(
   # "Meta-Llama-3.1-8B"
   # "glan_v2_8b_2048_default_template_9490"
   # "glanchat_v2_8b_2048_default_template_fullft_lr5e6_e3"
-  "Meta-Llama-3.1-70B"
+  "Meta-Llama-3.1-70B-Instruct"
     # "ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1"
     # "ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1-1500"
     # "ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2_500"
