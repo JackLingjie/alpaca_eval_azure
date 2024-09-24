@@ -25,12 +25,12 @@ PARAMS=(
   # "gemma-2-27b-it"
   # "gemma-2-9b-it"
 
-    "Phi-3-medium-4k-instruct"
-    "Phi-3-small-8k-instruct"
+    # "Phi-3-medium-4k-instruct"
+    # "Phi-3-small-8k-instruct"
 
-    "tulu-2-dpo-70b"
+    # "tulu-2-dpo-70b"
     "tulu-2-dpo-7b"
-    "Yi-34B-Chat"
+    # "Yi-34B-Chat"
  
     # "ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1"
     # "ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1-1500"
