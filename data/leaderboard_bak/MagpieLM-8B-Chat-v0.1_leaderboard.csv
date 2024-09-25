@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+MagpieLM-8B-Chat-v0.1,52.79503105590062,1.7606067338814608,community,2080,425,380,0,805,52.79503105590062,52.49705478269856,4.552543566033569e-05

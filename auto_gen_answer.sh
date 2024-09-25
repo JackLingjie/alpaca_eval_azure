@@ -18,7 +18,7 @@ PARAMS=(
   # "tulu-2-dpo-70b"
   # "tulu-2-dpo-13b"
   # "tulu-2-dpo-7b"
-  # "Yi-34B-Chat"
+  "Yi-34B-Chat"
   # "Yi-1.5-9B-Chat"
   # "vicuna-13b-v1.5"
   # "vicuna-33b-v1.3"
