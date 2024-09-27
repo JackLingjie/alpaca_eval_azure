@@ -18,7 +18,10 @@ PARAMS=(
   # "tulu-2-dpo-70b"
   # "tulu-2-dpo-13b"
   # "tulu-2-dpo-7b"
-  "Yi-34B-Chat"
+  # "Yi-34B-Chat"
+    "ta_llama3_instruct_70B_zero3_dpo_list_bsz1_trible_debug_v1"
+    "ta_llama3_instruct_70B_zero3_dpo_list_bsz1_trible_debug_v1_1500"
+    "ta_llama3_instruct_70B_zero3_dpo_list_bsz1_trible_debug_v1_1000"  
   # "Yi-1.5-9B-Chat"
   # "vicuna-13b-v1.5"
   # "vicuna-33b-v1.3"
@@ -29,7 +32,7 @@ PARAMS=(
     # "Phi-3-small-8k-instruct"
 
     # "tulu-2-dpo-70b"
-    "tulu-2-dpo-7b"
+    # "tulu-2-dpo-7b"
     # "Yi-34B-Chat"
  
     # "ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1"
