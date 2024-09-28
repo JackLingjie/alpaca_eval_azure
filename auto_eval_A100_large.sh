@@ -4,6 +4,9 @@ set -x
 
 # 参数列表  
 PARAMS=( 
+    "ta_llama3_instruct_70B_zero3_dpo_list_bsz1_trible_debug_v1"
+    "ta_llama3_instruct_70B_zero3_dpo_list_bsz1_trible_debug_v1_1500"
+    "ta_llama3_instruct_70B_zero3_dpo_list_bsz1_trible_debug_v1_1000"  
   # "ta_v2_chosen_tuluv2_dpo_2048_default_template_bsz1_acc8_v2"
   # "Meta-Llama-3.1-8B"
   # "glan_v2_8b_2048_default_template_9490"
@@ -27,15 +30,15 @@ PARAMS=(
     # "vicuna-33b-v1.3"
     # "gemma-2-27b-it"
     # "gemma-2-9b-it"
-    "tulu-2-dpo-70b"
+    # "tulu-2-dpo-70b"
     # "tulu-2-dpo-13b"
     # "tulu-2-dpo-7b"
-    "Yi-34B-Chat"
+    # "Yi-34B-Chat"
     # "Yi-1.5-9B-Chat"
     # "vicuna-13b-v1.5"
     # "vicuna-33b-v1.3"
     # "gemma-2-27b-it"
-    "gemma-2-9b-it"
+    # "gemma-2-9b-it"
     # "ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1"
     # "ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1-1500"
     # "ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2_500"
