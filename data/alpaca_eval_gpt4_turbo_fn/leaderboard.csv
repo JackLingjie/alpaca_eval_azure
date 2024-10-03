@@ -1,2 +1,2 @@
 ,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
-ta_rejected_noneed_length_llama3.1_instruct_2048_default_template_v2_1500,45.590062111801245,1.75649202633683,community,1935,367,438,0,805,45.590062111801245,48.70115666840349,0.07503732098313776
+magpie_8b_2048_default_template_checkpoint-536,35.03105590062112,1.6801887525841424,community,1546,281,522,2,805,35.03105590062112,46.728474978765746,0.13109413875250542

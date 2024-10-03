@@ -12,6 +12,8 @@ PARAMS=(
   # "Qwen2-72B-Instruct"
   # "Phi-3-medium-4k-instruct"
   # "Phi-3-small-8k-instruct"
+  # microsoft/Phi-3-small-8k-instruct
+  # microsoft/Phi-3-medium-4k-instruct
   # "Meta-Llama-3.1-70B-Instruct"
   # "WizardLM-70B-V1.0"
   # "WizardLM-13B-V1.2"

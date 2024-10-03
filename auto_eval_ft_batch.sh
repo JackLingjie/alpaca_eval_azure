@@ -4,7 +4,9 @@ export CUDA_VISIBLE_DEVICES=0
   
 # 参数列表，每个元素包含model_name, hyperparameter, 和 checkpoint，用逗号分隔  
 PARAMS=(  
-    "magpie_8b_2048_default_template_dpo,fullft,dpo,checkpoint-2756"
+    # "magpie_8b_2048_default_template_dpo,fullft,dpo,checkpoint-2756"
+  # "magpie_8b_2048_default_template,fullft_lr2e5_e2,sft,checkpoint-500"
+    "magpie_8b_2048_default_template,fullft_lr2e5_e2,sft,checkpoint-536"
   # "glanchat_v2.1_8b_2048_default_template,fullft_lr5e6_e3,sft,checkpoint-9918"
   # "glanchat_v2.1_8b_2048_default_template,fullft_lr5e6_e3,sft,checkpoint-8500"
   # "glanchat_v2.1_8b_2048_default_template_8500_dpo,fullft,dpo,checkpoint-2756"

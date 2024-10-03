@@ -1,0 +1,135 @@
+执行参数: Yi-34B-Chat, 01-ai
+Yi-34B-Chat
+INFO 09-29 06:09:21 llm_engine.py:174] Initializing an LLM engine (v0.5.4) with config: model='01-ai/Yi-34B-Chat', speculative_config=None, tokenizer='01-ai/Yi-34B-Chat', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, rope_theta=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=4096, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None), seed=0, served_model_name=01-ai/Yi-34B-Chat, use_v2_block_manager=False, enable_prefix_caching=False)
+INFO 09-29 06:09:30 model_runner.py:720] Starting to load model 01-ai/Yi-34B-Chat...
+INFO 09-29 06:09:30 weight_utils.py:225] Using model weights format ['*.safetensors']
+INFO 09-29 06:24:16 model_runner.py:732] Loading model weights took 64.0573 GB
+INFO 09-29 06:24:20 gpu_executor.py:102] # GPU blocks: 1719, # CPU blocks: 1092
+INFO 09-29 06:24:25 model_runner.py:1024] Capturing the model for CUDA graphs. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI.
+INFO 09-29 06:24:25 model_runner.py:1028] CUDA graphs can take additional 1~3 GiB memory per GPU. If you are running out of memory, consider decreasing `gpu_memory_utilization` or enforcing eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 09-29 06:24:38 model_runner.py:1225] Graph capturing finished in 12 secs.
+The OrderedVocab you are attempting to save contains holes for indices [3, 4, 5, 9, 10, 11, 12, 13], your vocabulary could be corrupted !
+model name: Yi-34B-Chat
+model_path: 01-ai/Yi-34B-Chat/Yi-34B-Chat
+use original template
+WARNING 09-29 06:24:52 scheduler.py:1099] Sequence group 258 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=1
+WARNING 09-29 06:24:55 scheduler.py:1099] Sequence group 208 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=51
+WARNING 09-29 06:25:01 scheduler.py:1099] Sequence group 155 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=101
+WARNING 09-29 06:25:09 scheduler.py:1099] Sequence group 103 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=151
+WARNING 09-29 06:25:45 scheduler.py:1099] Sequence group 111 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=201
+WARNING 09-29 06:26:20 scheduler.py:1099] Sequence group 209 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=251
+WARNING 09-29 06:26:36 scheduler.py:1099] Sequence group 231 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=301
+WARNING 09-29 06:26:57 scheduler.py:1099] Sequence group 307 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=351
+WARNING 09-29 06:27:01 scheduler.py:1099] Sequence group 294 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=401
+WARNING 09-29 06:27:17 scheduler.py:1099] Sequence group 275 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=451
+WARNING 09-29 06:27:32 scheduler.py:1099] Sequence group 318 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=501
+df: data/Yi-34B-Chat.json
+----------------------------------------
+执行参数: Phi-3-small-8k-instruct, microsoft
+Phi-3-small-8k-instruct
+df: data/Phi-3-small-8k-instruct.json
+----------------------------------------
+执行参数: Phi-3-medium-4k-instruct, microsoft
+Phi-3-medium-4k-instruct
+INFO 09-29 06:28:09 llm_engine.py:174] Initializing an LLM engine (v0.5.4) with config: model='microsoft/Phi-3-medium-4k-instruct', speculative_config=None, tokenizer='microsoft/Phi-3-medium-4k-instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, rope_theta=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=4096, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None), seed=0, served_model_name=microsoft/Phi-3-medium-4k-instruct, use_v2_block_manager=False, enable_prefix_caching=False)
+INFO 09-29 06:28:15 selector.py:170] Cannot use FlashAttention-2 backend due to sliding window.
+INFO 09-29 06:28:15 selector.py:54] Using XFormers backend.
+INFO 09-29 06:28:22 model_runner.py:720] Starting to load model microsoft/Phi-3-medium-4k-instruct...
+INFO 09-29 06:28:22 selector.py:170] Cannot use FlashAttention-2 backend due to sliding window.
+INFO 09-29 06:28:22 selector.py:54] Using XFormers backend.
+INFO 09-29 06:28:22 weight_utils.py:225] Using model weights format ['*.safetensors']
+INFO 09-29 06:29:00 model_runner.py:732] Loading model weights took 26.0838 GB
+INFO 09-29 06:29:05 gpu_executor.py:102] # GPU blocks: 14549, # CPU blocks: 1310
+INFO 09-29 06:29:09 model_runner.py:1024] Capturing the model for CUDA graphs. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI.
+INFO 09-29 06:29:09 model_runner.py:1028] CUDA graphs can take additional 1~3 GiB memory per GPU. If you are running out of memory, consider decreasing `gpu_memory_utilization` or enforcing eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 09-29 06:29:35 model_runner.py:1225] Graph capturing finished in 26 secs.
+model name: Phi-3-medium-4k-instruct
+model_path: microsoft/Phi-3-medium-4k-instruct/Phi-3-medium-4k-instruct
+use original template
+export data length 805
+df: data/Phi-3-medium-4k-instruct.json
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubaustraliaeast.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubaustraliaeast.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubaustraliaeast.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubaustraliaeast.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubaustraliaeast.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubaustraliaeast.openai.azure.com/
+endponit: https://conversationhubaustraliaeast.openai.azure.com/
+endponit: https://conversationhubaustraliaeast.openai.azure.com/
+endponit: https://conversationhubaustraliaeast.openai.azure.com/
+endponit: https://conversationhubaustraliaeast.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x73106a096b90>, <openai.lib.azure.AzureOpenAI object at 0x73106a096c20>, <openai.lib.azure.AzureOpenAI object at 0x73106a0b9480>]
+client_idcs:range(0, 3)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x73106a095ae0>, <openai.lib.azure.AzureOpenAI object at 0x73106a095a80>, <openai.lib.azure.AzureOpenAI object at 0x73106a0bada0>]
+client_idcs:range(0, 3)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x73106a097c10>, <openai.lib.azure.AzureOpenAI object at 0x73106a097dc0>, <openai.lib.azure.AzureOpenAI object at 0x73105dd10a00>]
+client_idcs:range(0, 3)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x73106a096410>, <openai.lib.azure.AzureOpenAI object at 0x73106a0961a0>, <openai.lib.azure.AzureOpenAI object at 0x73106a0f0820>]
+client_idcs:range(0, 3)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x73106a097010>, <openai.lib.azure.AzureOpenAI object at 0x73106a0976a0>, <openai.lib.azure.AzureOpenAI object at 0x73106a0f2920>]
+client_idcs:range(0, 3)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubaustraliaeast.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubaustraliaeast.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubaustraliaeast.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubaustraliaeast.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubaustraliaeast.openai.azure.com/
+endponit: https://conversationhubaustraliaeast.openai.azure.com/
+endponit: https://conversationhubaustraliaeast.openai.azure.com/
+endponit: https://conversationhubaustraliaeast.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x73105ddeea40>, <openai.lib.azure.AzureOpenAI object at 0x73105ddeeaa0>, <openai.lib.azure.AzureOpenAI object at 0x73106a07d9f0>]
+client_idcs:range(0, 3)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x73105ddef970>, <openai.lib.azure.AzureOpenAI object at 0x73105ddefa90>, <openai.lib.azure.AzureOpenAI object at 0x73106a013f70>]
+client_idcs:range(0, 3)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x73105d8103d0>, <openai.lib.azure.AzureOpenAI object at 0x73105d810160>, <openai.lib.azure.AzureOpenAI object at 0x73105d813a90>]
+client_idcs:range(0, 3)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x73105ddeece0>, <openai.lib.azure.AzureOpenAI object at 0x73105ddef5e0>, <openai.lib.azure.AzureOpenAI object at 0x73105d812170>]
+client_idcs:range(0, 3)
+----------------------------------------
+执行参数: , 
+MagpieLM-8B-Chat-v0.1
+WARNING 09-29 06:33:51 arg_utils.py:766] Chunked prefill is enabled by default for models with max_model_len > 32K. Currently, chunked prefill might not work with some features or models. If you encounter any issues, please disable chunked prefill by setting --enable-chunked-prefill=False.
+INFO 09-29 06:33:51 config.py:820] Chunked prefill is enabled with max_num_batched_tokens=512.
+INFO 09-29 06:33:51 llm_engine.py:174] Initializing an LLM engine (v0.5.4) with config: model='Magpie-Align/MagpieLM-8B-Chat-v0.1', speculative_config=None, tokenizer='Magpie-Align/MagpieLM-8B-Chat-v0.1', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, rope_theta=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None), seed=0, served_model_name=Magpie-Align/MagpieLM-8B-Chat-v0.1, use_v2_block_manager=False, enable_prefix_caching=False)
+INFO 09-29 06:34:01 model_runner.py:720] Starting to load model Magpie-Align/MagpieLM-8B-Chat-v0.1...
+INFO 09-29 06:34:02 weight_utils.py:225] Using model weights format ['*.safetensors']
+INFO 09-29 06:35:05 model_runner.py:732] Loading model weights took 14.9888 GB
+INFO 09-29 06:35:05 gpu_executor.py:102] # GPU blocks: 28232, # CPU blocks: 2048
+INFO 09-29 06:35:08 model_runner.py:1024] Capturing the model for CUDA graphs. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI.
+INFO 09-29 06:35:08 model_runner.py:1028] CUDA graphs can take additional 1~3 GiB memory per GPU. If you are running out of memory, consider decreasing `gpu_memory_utilization` or enforcing eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 09-29 06:35:17 model_runner.py:1225] Graph capturing finished in 9 secs.
+model name: MagpieLM-8B-Chat-v0.1
+model_path: Magpie-Align/MagpieLM-8B-Chat-v0.1/MagpieLM-8B-Chat-v0.1
+use original template
+export data length 805
+df: data/MagpieLM-8B-Chat-v0.1.json
+                       length_controlled_winrate  win_rate  standard_error  n_total  avg_length
+MagpieLM-8B-Chat-v0.1                      52.50     52.80            1.76      805        2080
+----------------------------------------
+所有任务已完成。
