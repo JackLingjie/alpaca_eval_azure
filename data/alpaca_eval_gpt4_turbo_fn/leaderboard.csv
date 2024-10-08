@@ -1,2 +1,2 @@
 ,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
-ta_chosen_tuluv2_merge_dpo_2048_default_template,0.6218905472636816,0.27742434570263175,community,6855,5,799,0,804,0.6218905472636816,0.20305151113786485,0.009695170592401171
+glanchat_v2.1_8b_2048_default_template_8500_dpo_checkpoint-2756,47.01492537313433,1.7613143687864758,community,3615,378,426,0,804,47.01492537313433,44.79078255390414,0.001235722503060027

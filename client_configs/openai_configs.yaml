@@ -1,0 +1,11 @@
+gpt-4: # only when using `model_name: gpt-4-1106-preview` which is AlpacaEval2's model name
+    # - "default" # this will append all the `default` configs
+    - client_class: "openai.AzureOpenAI" # doesn't use the `openai.OpenAI` client class
+      # the following are passed to the `AzureOpenAI` client class
+      azure_deployment: "gpt-4" # name of the latest GPT-4 turbo on azure change as needed
+      azure_endpoint: 
+        - "https://readinswedencentral.openai.azure.com/"
+        - "https://conversationhubaustraliaeast.openai.azure.com/"
+        - "https://conversationhubswedencentral.openai.azure.com/"
+      api_version: "2024-03-01-preview"
+      tenant_id: "72f988bf-86f1-41af-91ab-2d7cd011db47"

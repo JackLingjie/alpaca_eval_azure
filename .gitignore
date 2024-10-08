@@ -6,7 +6,6 @@ example/
 src/**/*.json
 results
 ./*.json
-client_configs/*.yaml
 old_results
 
 # Byte-compiled / optimized / DLL files

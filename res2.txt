@@ -1,0 +1,36 @@
+To match a string that does not contain the character "C:", you can use a negative lookahead assertion in PCRE (Perl-Compatible Regular Expressions). Here's how you can do it:
+
+```regex
+^(?!.*C:).*$
+```
+
+Explanation:
+- `^` asserts the start of a line.
+- `(?!` starts a negative lookahead assertion.
+- `.*` matches any character (except a newline) 0 or more times.
+- `C:` matches the string "C:" literally.
+- `.*` matches any character (except a newline) 0 or more times.
+- `$` asserts the end of a line.
+- `)` closes the negative lookahead assertion.
+
+However, this pattern will match any string that does not contain "C:" anywhere in it, including an empty string. If you want to match strings that contain at least one character but do not contain "C:", you can use the following pattern:
+
+```regex
+^(?!.*C:).+$
+```
+
+This pattern is similar to the previous one, but it uses `.+` instead of `.*`. `.+` matches any character (except a newline) 1 or more times, ensuring that the string is not empty.
+
+Here's an example in PHP:
+
+```php
+$pattern = '/^(?!.*C:).+$/';
+$string = 'Hello World';
+if (preg_match($pattern, $string)) {
+    echo "The string does not contain 'C:'\n";
+} else {
+    echo "The string contains 'C:'\n";
+}
+```
+
+In this example, the string "Hello World" does not contain "C:", so the `preg_match` function will return 1, and the string will be printed.

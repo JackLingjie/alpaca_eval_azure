@@ -28,7 +28,7 @@ alpaca_eval --model_outputs './data/tulu-dpo-llama3-8b-base.json' \
 --annotators_config 'alpaca_eval_gpt4_turbo_fn'   
 
 
-alpaca_eval --model_outputs './data/tulu_lora_sft_base_template_8b.json' \
+alpaca_eval --model_outputs './data/tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v2.json' \
 --annotators_config 'alpaca_eval_gpt4_turbo_fn'   
 
 alpaca_eval --model_outputs './data/tulu_lora_sft_default_template_8b.json' \
