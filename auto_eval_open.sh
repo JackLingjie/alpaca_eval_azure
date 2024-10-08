@@ -7,10 +7,11 @@ PARAMS=(
     # "magpie_8b_2048_default_template_dpo,fullft,dpo,checkpoint-2756"
     # "Magpie-Align,MagpieLM-8B-Chat-v0.1"
     # "Magpie-Align,MagpieLM-4B-Chat-v0.1"
-    "01-ai,Yi-34B-Chat"
-    "microsoft,Phi-3-small-8k-instruct"
-    "microsoft,Phi-3-medium-4k-instruct"
-    ""
+    "Magpie-Align,Llama-3-8B-Magpie-Align-SFT-v0.1"
+    # "01-ai,Yi-34B-Chat"
+    # "microsoft,Phi-3-small-8k-instruct"
+    # "microsoft,Phi-3-medium-4k-instruct"
+    # ""
   
   # 添加更多参数  
 )  
