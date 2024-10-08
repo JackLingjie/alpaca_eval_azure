@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+wildchat_v1_8b_2048_default_template_4000,31.902985074626866,1.643655903719286,community,2045,256,547,1,804,31.902985074626866,33.411103938398526,0.003917844198389434

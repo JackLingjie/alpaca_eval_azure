@@ -13,3 +13,4 @@ alpaca_eval --model_outputs "./data/$MODEL_NAME.json" \
 
 # bak annotation file
 cp data/alpaca_eval_gpt4_turbo_fn/annotations.json "data/annotations_bak/${MODEL_NAME}_annotations.json"  
+cp data/alpaca_eval_gpt4_turbo_fn/leaderboard.csv "data/leaderboard_bak/${MODEL_NAME}_leaderboard.csv"  

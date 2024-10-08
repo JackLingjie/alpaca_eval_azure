@@ -1,0 +1,7 @@
+执行参数: MagpieLM-4B-Chat-v0.1
+df: data/MagpieLM-4B-Chat-v0.1.json
+----------------------------------------
+执行参数: MagpieLM-8B-Chat-v0.1
+df: data/MagpieLM-8B-Chat-v0.1.json
+----------------------------------------
+所有任务已完成。

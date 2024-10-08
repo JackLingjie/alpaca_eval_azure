@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+uf_llama3.1_instruct_dpo_2048_job,42.98136645962733,1.743690688679682,community,1976,345,458,2,805,42.98136645962733,44.1888054570894,0.027238270511357028

@@ -26,3 +26,4 @@ alpaca_eval --model_outputs "./data/$SAVE_MODEL_ID.json" \
   
 # 备份 annotation 文件  
 cp data/alpaca_eval_gpt4_turbo_fn/annotations.json "data/annotations_bak/${SAVE_MODEL_ID}_annotations.json"  
+cp data/alpaca_eval_gpt4_turbo_fn/leaderboard.csv "data/leaderboard_bak/${MODEL_NAME}_leaderboard.csv"  

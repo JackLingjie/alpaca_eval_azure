@@ -1,0 +1,2 @@
+执行参数: MagpieLM-8B-Chat-v0.1, Magpie-Align
+MagpieLM-8B-Chat-v0.1

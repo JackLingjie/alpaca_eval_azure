@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+ta_llama3_instruct_70B_zero3_dpo_list_bsz1_trible_debug_v1,50.37267080745341,1.7622194305482903,community,1995,405,399,1,805,50.37267080745341,51.68485896451189,0.11489130976248894

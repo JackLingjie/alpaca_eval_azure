@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v14,26.08695652173913,1.5486177240469465,community,2082,210,595,0,805,26.08695652173913,27.03390641351608,0.1641604310914763

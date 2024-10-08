@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+ta_rejected_llama3.1_instruct_dpo_2048_default_template-1500,41.98757763975156,1.7405755781307832,community,1940,338,467,0,805,41.98757763975156,45.07994507780345,0.11412257143281494

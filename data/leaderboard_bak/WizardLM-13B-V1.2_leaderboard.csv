@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+WizardLM-13B-V1.2,12.079701120797012,1.1507619360910428,community,1457,97,706,0,803,12.079701120797012,17.084660002521613,0.22343841174406942
