@@ -1,0 +1,118 @@
+执行参数: glan_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918, fullft, dpo_epoch2, checkpoint-1168
+glan_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_epoch2_checkpoint-1168
+WARNING 10-19 05:26:14 arg_utils.py:766] Chunked prefill is enabled by default for models with max_model_len > 32K. Currently, chunked prefill might not work with some features or models. If you encounter any issues, please disable chunked prefill by setting --enable-chunked-prefill=False.
+INFO 10-19 05:26:14 config.py:820] Chunked prefill is enabled with max_num_batched_tokens=512.
+INFO 10-19 05:26:14 llm_engine.py:174] Initializing an LLM engine (v0.5.4) with config: model='/mnt/lingjiejiang/textual_aesthetics/exp/saves/glan_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_epoch2/checkpoint-1168', speculative_config=None, tokenizer='/mnt/lingjiejiang/textual_aesthetics/exp/saves/glan_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_epoch2/checkpoint-1168', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, rope_theta=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None), seed=0, served_model_name=/mnt/lingjiejiang/textual_aesthetics/exp/saves/glan_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_epoch2/checkpoint-1168, use_v2_block_manager=False, enable_prefix_caching=False)
+INFO 10-19 05:26:15 model_runner.py:720] Starting to load model /mnt/lingjiejiang/textual_aesthetics/exp/saves/glan_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_epoch2/checkpoint-1168...
+INFO 10-19 05:26:36 model_runner.py:732] Loading model weights took 14.9888 GB
+INFO 10-19 05:26:36 gpu_executor.py:102] # GPU blocks: 28232, # CPU blocks: 2048
+INFO 10-19 05:26:39 model_runner.py:1024] Capturing the model for CUDA graphs. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI.
+INFO 10-19 05:26:39 model_runner.py:1028] CUDA graphs can take additional 1~3 GiB memory per GPU. If you are running out of memory, consider decreasing `gpu_memory_utilization` or enforcing eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 10-19 05:26:47 model_runner.py:1225] Graph capturing finished in 8 secs.
+model name: glan_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_epoch2_checkpoint-1168
+model_path: /mnt/lingjiejiang/textual_aesthetics/exp/saves/glan_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_epoch2/checkpoint-1168/glan_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_epoch2_checkpoint-1168
+use original template
+WARNING 10-19 05:29:04 scheduler.py:1099] Sequence group 251 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=1
+WARNING 10-19 05:32:06 scheduler.py:1099] Sequence group 388 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=51
+WARNING 10-19 05:35:12 scheduler.py:1099] Sequence group 567 is preempted by PreemptionMode.RECOMPUTE mode because there is not enough KV cache space. This can affect the end-to-end performance. Increase gpu_memory_utilization or tensor_parallel_size to provide more KV cache memory. total_num_cumulative_preemption=101
+export data length 805
+df: data/glan_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_epoch2_checkpoint-1168.json
+                                                                                             length_controlled_winrate  win_rate  standard_error  n_total  avg_length
+glan_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_epoch2_checkpoint-1168                       0.00      0.00            0.00      805        2048
+----------------------------------------
+执行参数: magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918, fullft, dpo_lr5e7, checkpoint-1529
+magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr5e7_checkpoint-1529
+WARNING 10-19 05:36:32 arg_utils.py:766] Chunked prefill is enabled by default for models with max_model_len > 32K. Currently, chunked prefill might not work with some features or models. If you encounter any issues, please disable chunked prefill by setting --enable-chunked-prefill=False.
+INFO 10-19 05:36:32 config.py:820] Chunked prefill is enabled with max_num_batched_tokens=512.
+INFO 10-19 05:36:32 llm_engine.py:174] Initializing an LLM engine (v0.5.4) with config: model='/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr5e7/checkpoint-1529', speculative_config=None, tokenizer='/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr5e7/checkpoint-1529', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, rope_theta=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None), seed=0, served_model_name=/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr5e7/checkpoint-1529, use_v2_block_manager=False, enable_prefix_caching=False)
+INFO 10-19 05:36:33 model_runner.py:720] Starting to load model /mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr5e7/checkpoint-1529...
+INFO 10-19 05:37:11 model_runner.py:732] Loading model weights took 14.9888 GB
+INFO 10-19 05:37:11 gpu_executor.py:102] # GPU blocks: 28232, # CPU blocks: 2048
+INFO 10-19 05:37:13 model_runner.py:1024] Capturing the model for CUDA graphs. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI.
+INFO 10-19 05:37:13 model_runner.py:1028] CUDA graphs can take additional 1~3 GiB memory per GPU. If you are running out of memory, consider decreasing `gpu_memory_utilization` or enforcing eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 10-19 05:37:22 model_runner.py:1225] Graph capturing finished in 9 secs.
+model name: magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr5e7_checkpoint-1529
+model_path: /mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr5e7/checkpoint-1529/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr5e7_checkpoint-1529
+use original template
+export data length 805
+df: data/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr5e7_checkpoint-1529.json
+                                                                                              length_controlled_winrate  win_rate  standard_error  n_total  avg_length
+magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr5e7_checkpoint-1529                      54.63     53.35            1.76      805        1990
+----------------------------------------
+执行参数: magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918, fullft, dpo_lr2e6, checkpoint-1529
+magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr2e6_checkpoint-1529
+WARNING 10-19 05:39:20 arg_utils.py:766] Chunked prefill is enabled by default for models with max_model_len > 32K. Currently, chunked prefill might not work with some features or models. If you encounter any issues, please disable chunked prefill by setting --enable-chunked-prefill=False.
+INFO 10-19 05:39:20 config.py:820] Chunked prefill is enabled with max_num_batched_tokens=512.
+INFO 10-19 05:39:20 llm_engine.py:174] Initializing an LLM engine (v0.5.4) with config: model='/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr2e6/checkpoint-1529', speculative_config=None, tokenizer='/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr2e6/checkpoint-1529', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, rope_theta=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None), seed=0, served_model_name=/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr2e6/checkpoint-1529, use_v2_block_manager=False, enable_prefix_caching=False)
+INFO 10-19 05:39:21 model_runner.py:720] Starting to load model /mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr2e6/checkpoint-1529...
+INFO 10-19 05:39:47 model_runner.py:732] Loading model weights took 14.9888 GB
+INFO 10-19 05:39:47 gpu_executor.py:102] # GPU blocks: 28232, # CPU blocks: 2048
+INFO 10-19 05:39:50 model_runner.py:1024] Capturing the model for CUDA graphs. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI.
+INFO 10-19 05:39:50 model_runner.py:1028] CUDA graphs can take additional 1~3 GiB memory per GPU. If you are running out of memory, consider decreasing `gpu_memory_utilization` or enforcing eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 10-19 05:39:58 model_runner.py:1225] Graph capturing finished in 8 secs.
+model name: magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr2e6_checkpoint-1529
+model_path: /mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr2e6/checkpoint-1529/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr2e6_checkpoint-1529
+use original template
+export data length 805
+df: data/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr2e6_checkpoint-1529.json
+                                                                                              length_controlled_winrate  win_rate  standard_error  n_total  avg_length
+magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr2e6_checkpoint-1529                      37.95     37.70            1.71      801        2477
+----------------------------------------
+执行参数: magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918, fullft, dpo_lr1e6, checkpoint-1529
+magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr1e6_checkpoint-1529
+WARNING 10-19 05:43:23 arg_utils.py:766] Chunked prefill is enabled by default for models with max_model_len > 32K. Currently, chunked prefill might not work with some features or models. If you encounter any issues, please disable chunked prefill by setting --enable-chunked-prefill=False.
+INFO 10-19 05:43:23 config.py:820] Chunked prefill is enabled with max_num_batched_tokens=512.
+INFO 10-19 05:43:23 llm_engine.py:174] Initializing an LLM engine (v0.5.4) with config: model='/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr1e6/checkpoint-1529', speculative_config=None, tokenizer='/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr1e6/checkpoint-1529', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, rope_theta=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None), seed=0, served_model_name=/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr1e6/checkpoint-1529, use_v2_block_manager=False, enable_prefix_caching=False)
+INFO 10-19 05:43:24 model_runner.py:720] Starting to load model /mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr1e6/checkpoint-1529...
+INFO 10-19 05:44:21 model_runner.py:732] Loading model weights took 14.9888 GB
+INFO 10-19 05:44:22 gpu_executor.py:102] # GPU blocks: 28232, # CPU blocks: 2048
+INFO 10-19 05:44:24 model_runner.py:1024] Capturing the model for CUDA graphs. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI.
+INFO 10-19 05:44:24 model_runner.py:1028] CUDA graphs can take additional 1~3 GiB memory per GPU. If you are running out of memory, consider decreasing `gpu_memory_utilization` or enforcing eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 10-19 05:44:33 model_runner.py:1225] Graph capturing finished in 8 secs.
+model name: magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr1e6_checkpoint-1529
+model_path: /mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_lr1e6/checkpoint-1529/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr1e6_checkpoint-1529
+use original template
+export data length 805
+df: data/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr1e6_checkpoint-1529.json
+                                                                                              length_controlled_winrate  win_rate  standard_error  n_total  avg_length
+magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr1e6_checkpoint-1529                      52.40     52.36            1.76      805        2054
+----------------------------------------
+执行参数: magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918, fullft, dpo_bsz256, checkpoint-764
+magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_bsz256_checkpoint-764
+WARNING 10-19 05:46:33 arg_utils.py:766] Chunked prefill is enabled by default for models with max_model_len > 32K. Currently, chunked prefill might not work with some features or models. If you encounter any issues, please disable chunked prefill by setting --enable-chunked-prefill=False.
+INFO 10-19 05:46:33 config.py:820] Chunked prefill is enabled with max_num_batched_tokens=512.
+INFO 10-19 05:46:33 llm_engine.py:174] Initializing an LLM engine (v0.5.4) with config: model='/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_bsz256/checkpoint-764', speculative_config=None, tokenizer='/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_bsz256/checkpoint-764', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, rope_theta=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None), seed=0, served_model_name=/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_bsz256/checkpoint-764, use_v2_block_manager=False, enable_prefix_caching=False)
+INFO 10-19 05:46:34 model_runner.py:720] Starting to load model /mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_bsz256/checkpoint-764...
+INFO 10-19 05:47:04 model_runner.py:732] Loading model weights took 14.9888 GB
+INFO 10-19 05:47:05 gpu_executor.py:102] # GPU blocks: 28232, # CPU blocks: 2048
+INFO 10-19 05:47:07 model_runner.py:1024] Capturing the model for CUDA graphs. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI.
+INFO 10-19 05:47:07 model_runner.py:1028] CUDA graphs can take additional 1~3 GiB memory per GPU. If you are running out of memory, consider decreasing `gpu_memory_utilization` or enforcing eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 10-19 05:47:15 model_runner.py:1225] Graph capturing finished in 9 secs.
+model name: magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_bsz256_checkpoint-764
+model_path: /mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_bsz256/checkpoint-764/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_bsz256_checkpoint-764
+use original template
+export data length 805
+df: data/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_bsz256_checkpoint-764.json
+                                                                                              length_controlled_winrate  win_rate  standard_error  n_total  avg_length
+magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_bsz256_checkpoint-764                      50.00     53.48            1.75      804        2256
+----------------------------------------
+执行参数: magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918, fullft, dpo_bsz64, checkpoint-3059
+magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_bsz64_checkpoint-3059
+WARNING 10-19 05:49:32 arg_utils.py:766] Chunked prefill is enabled by default for models with max_model_len > 32K. Currently, chunked prefill might not work with some features or models. If you encounter any issues, please disable chunked prefill by setting --enable-chunked-prefill=False.
+INFO 10-19 05:49:32 config.py:820] Chunked prefill is enabled with max_num_batched_tokens=512.
+INFO 10-19 05:49:32 llm_engine.py:174] Initializing an LLM engine (v0.5.4) with config: model='/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_bsz64/checkpoint-3059', speculative_config=None, tokenizer='/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_bsz64/checkpoint-3059', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, rope_scaling=None, rope_theta=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None), seed=0, served_model_name=/mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_bsz64/checkpoint-3059, use_v2_block_manager=False, enable_prefix_caching=False)
+INFO 10-19 05:49:33 model_runner.py:720] Starting to load model /mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_bsz64/checkpoint-3059...
+INFO 10-19 05:50:06 model_runner.py:732] Loading model weights took 14.9888 GB
+INFO 10-19 05:50:07 gpu_executor.py:102] # GPU blocks: 28232, # CPU blocks: 2048
+INFO 10-19 05:50:09 model_runner.py:1024] Capturing the model for CUDA graphs. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI.
+INFO 10-19 05:50:09 model_runner.py:1028] CUDA graphs can take additional 1~3 GiB memory per GPU. If you are running out of memory, consider decreasing `gpu_memory_utilization` or enforcing eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 10-19 05:50:18 model_runner.py:1225] Graph capturing finished in 9 secs.
+model name: magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_bsz64_checkpoint-3059
+model_path: /mnt/lingjiejiang/textual_aesthetics/exp/saves/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918/fullft/dpo_bsz64/checkpoint-3059/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_bsz64_checkpoint-3059
+use original template
+export data length 805
+df: data/magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_bsz64_checkpoint-3059.json
+                                                                                              length_controlled_winrate  win_rate  standard_error  n_total  avg_length
+magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_bsz64_checkpoint-3059                      54.32     54.54            1.75      804        2086
+----------------------------------------
+所有任务已完成。

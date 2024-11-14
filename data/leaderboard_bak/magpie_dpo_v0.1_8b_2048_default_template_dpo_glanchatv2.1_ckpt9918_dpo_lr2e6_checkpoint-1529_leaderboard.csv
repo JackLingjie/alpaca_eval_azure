@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918_dpo_lr2e6_checkpoint-1529,37.70287141073658,1.7089090942587661,community,2477,300,497,4,801,37.70287141073658,37.954092046273395,0.041431359081862545

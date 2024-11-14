@@ -16,7 +16,7 @@ CHECKPOINT=${4:-$DEFAULT_CHECKPOINT}
 # 拼接新的 model-path  
 MODEL_PATH="/mnt/lingjiejiang/textual_aesthetics/exp/saves/${MODEL_NAME}/${HYPERPARAMETER}/${STAGE}/${CHECKPOINT}"  
 
-SAVE_MODEL_ID="${MODEL_NAME}_${CHECKPOINT}"
+SAVE_MODEL_ID="${MODEL_NAME}_${STAGE}_${CHECKPOINT}"
 echo $SAVE_MODEL_ID
 
 python generate_response_fullft.py \
@@ -28,4 +28,4 @@ alpaca_eval --model_outputs "./data/$SAVE_MODEL_ID.json" \
   
 # 备份 annotation 文件  
 cp data/alpaca_eval_gpt4_turbo_fn/annotations.json "data/annotations_bak/${SAVE_MODEL_ID}_annotations.json"  
-cp data/alpaca_eval_gpt4_turbo_fn/leaderboard.csv "data/leaderboard_bak/${MODEL_NAME}_leaderboard.csv"  
+cp data/alpaca_eval_gpt4_turbo_fn/leaderboard.csv "data/leaderboard_bak/${SAVE_MODEL_ID}_leaderboard.csv"  

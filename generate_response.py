@@ -17,7 +17,7 @@ template = "{% if messages[0]['role'] == 'system' %}{% set system_message = mess
 # model_name = "Meta-Llama-3.1-8B-Instruct"
 # model_name = "Meta-Llama-3.1-8B"
 # Create an LLM.
-llm = LLM(model=f"{path_dir}/{model_name}")
+llm = LLM(model=f"{path_dir}/{model_name}", trust_remote_code=True)
 
 print(f"model name: {model_name}")
 print(f"model_path: {path_dir}/{model_name}")
