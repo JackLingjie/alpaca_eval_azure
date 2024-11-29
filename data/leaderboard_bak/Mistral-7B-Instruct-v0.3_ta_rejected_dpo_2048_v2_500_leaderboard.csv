@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+Mistral-7B-Instruct-v0.3_ta_rejected_dpo_2048_v2_500,36.27329192546584,1.6956109149569194,community,1834,292,513,0,805,36.27329192546584,39.58476682519473,0.061919203686079206

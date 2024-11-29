@@ -1,0 +1,21 @@
+执行参数: bitnet_glan1.5_lr_2e-4
+文件 data/bitnet_glan1.5_lr_2e-4.json 存在，跳过  gen_answer.py 执行。
+df: data/bitnet_glan1.5_lr_2e-4.json
+df: gemma_glan1.5_6000ckpt
+----------------------------------------
+执行参数: bitnet_glan1.5_lr_2e-5
+文件 data/bitnet_glan1.5_lr_2e-5.json 存在，跳过  gen_answer.py 执行。
+df: data/bitnet_glan1.5_lr_2e-5.json
+df: gemma_glan1.5_6000ckpt
+----------------------------------------
+执行参数: bitnet_glan1.5_lr_5e-4
+文件 data/bitnet_glan1.5_lr_5e-4.json 存在，跳过  gen_answer.py 执行。
+df: data/bitnet_glan1.5_lr_5e-4.json
+df: gemma_glan1.5_6000ckpt
+----------------------------------------
+执行参数: bitnet_glan1.5_lr_5e-5
+文件 data/bitnet_glan1.5_lr_5e-5.json 存在，跳过  gen_answer.py 执行。
+df: data/bitnet_glan1.5_lr_5e-5.json
+df: gemma_glan1.5_6000ckpt
+----------------------------------------
+所有任务已完成。
