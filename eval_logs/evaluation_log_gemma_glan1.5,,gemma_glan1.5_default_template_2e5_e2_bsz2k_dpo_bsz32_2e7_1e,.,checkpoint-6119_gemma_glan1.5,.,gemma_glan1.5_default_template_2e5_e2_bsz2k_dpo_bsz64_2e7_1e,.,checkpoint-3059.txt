@@ -1,0 +1,9 @@
+执行参数: gemma_glan1.5, , gemma_glan1.5_default_template_2e5_e2_bsz2k_dpo_bsz32_2e7_1e, .,checkpoint-6119
+gemma_glan1.5_gemma_glan1.5_default_template_2e5_e2_bsz2k_dpo_bsz32_2e7_1e_.,checkpoint-6119
+df: data/gemma_glan1.5_gemma_glan1.5_default_template_2e5_e2_bsz2k_dpo_bsz32_2e7_1e_.,checkpoint-6119.json
+----------------------------------------
+执行参数: gemma_glan1.5, ., gemma_glan1.5_default_template_2e5_e2_bsz2k_dpo_bsz64_2e7_1e, .,checkpoint-3059
+gemma_glan1.5_gemma_glan1.5_default_template_2e5_e2_bsz2k_dpo_bsz64_2e7_1e_.,checkpoint-3059
+df: data/gemma_glan1.5_gemma_glan1.5_default_template_2e5_e2_bsz2k_dpo_bsz64_2e7_1e_.,checkpoint-3059.json
+----------------------------------------
+所有任务已完成。

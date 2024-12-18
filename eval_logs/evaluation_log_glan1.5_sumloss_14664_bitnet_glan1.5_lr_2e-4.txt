@@ -1,0 +1,15 @@
+执行参数: glan1.5_sumloss_14664
+文件 data/glan1.5_sumloss_14664.json 存在，跳过  gen_answer.py 执行。
+df: data/glan1.5_sumloss_14664.json
+df: data/gemma_glan1.5_6000ckpt.json
+                       length_controlled_winrate  win_rate  standard_error  n_total  avg_length
+glan1.5_sumloss_14664                      46.63     47.08            1.76      804        1920
+----------------------------------------
+执行参数: bitnet_glan1.5_lr_2e-4
+文件 data/bitnet_glan1.5_lr_2e-4.json 存在，跳过  gen_answer.py 执行。
+df: data/bitnet_glan1.5_lr_2e-4.json
+df: data/gemma_glan1.5_6000ckpt.json
+        length_controlled_winrate  win_rate  standard_error  n_total  avg_length
+bitnet                      38.67     39.03            1.72      802        1833
+----------------------------------------
+所有任务已完成。

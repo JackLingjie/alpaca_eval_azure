@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+glan1.5_sumloss_8k_v2,11.428571428571429,1.1220566238445422,community,4689,92,713,0,805,11.428571428571429,10.912835700426958,1.468295518208675e-16

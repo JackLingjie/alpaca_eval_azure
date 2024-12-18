@@ -18,8 +18,8 @@ fi
 src/alpaca_eval/evaluators_configs/
 alpaca_eval --model_outputs "./data/$MODEL_NAME.json" \
 --annotators_config "alpaca_eval_gpt4_turbo_fn" \
---reference_outputs "gemma_glan1.5_6000ckpt"
+--reference_outputs "data/gemma_glan1.5_6000ckpt.json"
 
 # bak annotation file
-cp data/alpaca_eval_gpt4_turbo_fn/annotations.json "data/annotations_bak/${MODEL_NAME}_annotations.json"  
-cp data/alpaca_eval_gpt4_turbo_fn/leaderboard.csv "data/leaderboard_bak/${MODEL_NAME}_leaderboard.csv"  
+cp data/alpaca_eval_gpt4_turbo_fn/annotations.json "data/annotations_bak/${MODEL_NAME}_gemma_glan1.5_6000ckpt_annotations.json"  
+cp data/alpaca_eval_gpt4_turbo_fn/leaderboard.csv "data/leaderboard_bak/${MODEL_NAME}_gemma_glan1.5_6000ckpt_leaderboard.csv"  
