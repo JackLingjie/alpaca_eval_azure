@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+Mistral-7B-Instruct-v0.3_uf_dpo_2048_2577,29.068322981366464,1.6014083110161357,community,1810,234,571,0,805,29.068322981366464,33.244443552284885,0.19259449400957612

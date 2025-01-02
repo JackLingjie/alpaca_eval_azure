@@ -1,0 +1,9 @@
+执行参数: bitnet_glan2-1108, gemma_glan1.5_default_template_2e5_e2_bsz2k_dpo_bsz128_2e7_1e_dpo_norm_beta5, checkpoint-1529
+bitnet_glan2-1108_checkpoint-1529
+df: data/bitnet_glan2-1108_checkpoint-1529.json
+----------------------------------------
+执行参数: bitnet_glan2-1108, F, checkpoint-1529
+bitnet_glan2-1108_checkpoint-1529
+df: data/bitnet_glan2-1108_checkpoint-1529.json
+----------------------------------------
+所有任务已完成。

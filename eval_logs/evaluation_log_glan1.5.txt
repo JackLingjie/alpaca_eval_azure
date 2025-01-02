@@ -1,0 +1,958 @@
+ÊâßË°åÂèÇÊï∞: glan1.5
+Êñá‰ª∂ data/glan1.5.json Â≠òÂú®ÔºåË∑≥Ëøá  gen_answer.py ÊâßË°å„ÄÇ
+df: data/glan1.5.json
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50ad210>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50ad180>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50add50>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50adab0>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50af9d0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50af8e0>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50af0d0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50af280>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50ae860>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50ae9b0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5122f50>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5123d30>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50acc10>, <openai.lib.azure.AzureOpenAI object at 0x7f76c516da80>]
+client_idcs:range(0, 2)
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c516f1f0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c516e620>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50acb80>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50acc70>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50af7f0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53cce20>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5343df0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5343cd0>]
+client_idcs:range(0, 2)
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53aa1a0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53aa170>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53ab190>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53abbb0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50ad8a0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50ad6f0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50ae3e0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50ad9f0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1c3d0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53e7400>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5313490>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53e5b10>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1c0d0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1c460>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53a15a0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53a0f70>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53a1930>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53a1840>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53ce470>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5340c70>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1c6a0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53a88e0>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5372e90>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53738b0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1c7f0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1ca30>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4a86530>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4a86f50>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1c7c0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4accd90>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53433d0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5341e40>]
+client_idcs:range(0, 2)
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53ccc10>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53cc400>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4a8c790>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4a8c6a0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c539e200>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4ad5a50>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4ad4310>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4ad43a0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1d120>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4b03af0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53a1870>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50ac2b0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1c6d0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1d2a0>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4b51630>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4b515d0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53a9330>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53a8f40>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4ae2080>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4ae17b0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c515dfc0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c515df90>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c0f0d0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c0f1c0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4cab4f0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4cab250>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1a050>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50db850>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4b01120>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4b023e0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4a85ff0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4a86350>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53e57e0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53e59f0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53e63b0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c0cd30>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50d9690>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50d93c0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53e37f0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53e3970>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53abe80>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4acd2a0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c539f3a0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c539f100>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5168850>, <openai.lib.azure.AzureOpenAI object at 0x7f76c51684c0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5121570>, <openai.lib.azure.AzureOpenAI object at 0x7f76c51207c0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1cbe0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1dc00>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c515ef50>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4a19d50>]
+client_idcs:range(0, 2)
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4accdc0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4acc3a0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c0c910>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c0c0d0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50d8040>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50d9540>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4cdd750>, <openai.lib.azure.AzureOpenAI object at 0x7f76c6578730>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c539e200>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4a71690>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1e380>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4ad67a0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c0cf10>, <openai.lib.azure.AzureOpenAI object at 0x7f76c515e680>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c530cfd0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c530d8d0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5340070>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5341450>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53e0280>, <openai.lib.azure.AzureOpenAI object at 0x7f76c530c0a0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53a3520>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53a2fe0>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1e740>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1eb00>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53cce50>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53cceb0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53d9cf0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53da710>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50aef80>, <openai.lib.azure.AzureOpenAI object at 0x7f76c532b0d0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53532b0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5353cd0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1eec0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4b43ac0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53a0970>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53a24d0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5341750>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5342980>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1eb90>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1f070>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1ec80>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53e3d00>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4b435b0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4bfae90>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1f400>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1f040>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50d9600>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50d84f0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1f100>, <openai.lib.azure.AzureOpenAI object at 0x7f76c6139120>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1f130>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53e0a60>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c61f7af0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c61f7fa0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c617a8c0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c617be80>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50e7cd0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50e7e20>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1f0a0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1f7f0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50e7a30>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50e79a0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5341e70>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5342020>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5c58940>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4b95930>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1f970>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1f7c0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4a280a0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4a2a770>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4b96bc0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1f8b0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5169090>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5168ee0>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1ff40>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1ff10>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c61e4520>, <openai.lib.azure.AzureOpenAI object at 0x7f76c61e7100>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1fac0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1feb0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5cb4520>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5cb5ea0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53d9450>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53d8ac0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5c220e0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c61f5ab0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4ca4220>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4ca4160>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c49148e0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4915300>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50e7bb0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50e7c70>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c49ac2e0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c49ac370>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4ae0340>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4ae0b20>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c61f4340>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5c21180>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4ca44c0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4ca4490>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c49f5210>, <openai.lib.azure.AzureOpenAI object at 0x7f76c49f5c30>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c617b070>, <openai.lib.azure.AzureOpenAI object at 0x7f76c617aec0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c523d630>, <openai.lib.azure.AzureOpenAI object at 0x7f76c523e050>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c52ca530>, <openai.lib.azure.AzureOpenAI object at 0x7f76c52caf50>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1e9e0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1e440>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5ca4400>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5ca4f70>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c49f4310>, <openai.lib.azure.AzureOpenAI object at 0x7f76c52c9120>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c61f4c70>, <openai.lib.azure.AzureOpenAI object at 0x7f76c61f6110>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c52ca380>, <openai.lib.azure.AzureOpenAI object at 0x7f76c52df6a0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c493bdf0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4916dd0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c493a470>, <openai.lib.azure.AzureOpenAI object at 0x7f76c557fa60>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c61e7760>, <openai.lib.azure.AzureOpenAI object at 0x7f76c55e0880>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c0c0d0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c61f69b0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c557f1f0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c557f2b0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5ca4730>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5ca5960>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4ca4f40>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4ca5300>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4c1f520>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4c1f580>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4ca50f0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4ca5540>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4ca4b20>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5765960>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+                             ‡Ô*Èv  0k≈v  pk≈v                         †A4w                                                                                                                                                ˇˇˇˇˇˇˇˇ                                                                pû$4w  –á,4w  ¿≤‡≈config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5cb4460>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5cb77c0>]
+client_idcs:range(0, 2)
+endponit: https://conversationhubswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5342290>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5341990>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53e0af0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53e3220>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4bcbdf0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4bcb010>]
+client_idcs:range(0, 2)
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4bcb820>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4bcadd0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c50e75e0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50e6d10>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c57d75e0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c57d74c0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c61e7a00>, <openai.lib.azure.AzureOpenAI object at 0x7f76c57649a0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4bcace0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4bcad10>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c617b2e0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c49ac2b0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c574a710>, <openai.lib.azure.AzureOpenAI object at 0x7f76c57cee90>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c57e8be0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c57e81c0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4bcb010>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5ca4220>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c57acd90>, <openai.lib.azure.AzureOpenAI object at 0x7f76c57ad7b0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c57f1d80>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5ca7a60>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53cf9a0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5fcea10>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5ca56c0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5ca5120>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c57eb5e0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c57eb550>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5749780>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5fabc70>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5ca43d0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5ca5b40>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c57aeec0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c57ae680>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c57f2e00>, <openai.lib.azure.AzureOpenAI object at 0x7f76c57f2ec0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c53cdf00>, <openai.lib.azure.AzureOpenAI object at 0x7f76c53ce1d0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c557d780>, <openai.lib.azure.AzureOpenAI object at 0x7f76c557d7e0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5590d00>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5590e50>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c61f6530>, <openai.lib.azure.AzureOpenAI object at 0x7f76c57f3be0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c49af100>, <openai.lib.azure.AzureOpenAI object at 0x7f76c49ae8c0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5c22380>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5c22110>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c6155390>, <openai.lib.azure.AzureOpenAI object at 0x7f76c6154f70>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c55933d0>, <openai.lib.azure.AzureOpenAI object at 0x7f76c5592590>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c61f4a60>, <openai.lib.azure.AzureOpenAI object at 0x7f76c61f6680>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c4b41b40>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4b41ab0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c5f89e10>, <openai.lib.azure.AzureOpenAI object at 0x7f76c61f51e0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c61f4d30>, <openai.lib.azure.AzureOpenAI object at 0x7f76c61f4ee0>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c57acb20>, <openai.lib.azure.AzureOpenAI object at 0x7f76c530ca00>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c61f5840>, <openai.lib.azure.AzureOpenAI object at 0x7f76c50ac700>]
+client_idcs:range(0, 2)
+config: {'azure_deployment': 'gpt-4', 'azure_endpoint': ['https://readinswedencentral.openai.azure.com/', 'https://conversationhubswedencentral.openai.azure.com/'], 'api_version': '2024-03-01-preview', 'tenant_id': '72f988bf-86f1-41af-91ab-2d7cd011db47'};
+ kwargs: {}
+endponit: https://readinswedencentral.openai.azure.com/
+endponit: https://conversationhubswedencentral.openai.azure.com/
+all_clients: [<openai.lib.azure.AzureOpenAI object at 0x7f76c61f7e20>, <openai.lib.azure.AzureOpenAI object at 0x7f76c4cdf610>]
+client_idcs:range(0, 2)
+         length_controlled_winrate  win_rate  standard_error  n_total  avg_length
+glan1.5                      14.92     12.92            1.18      805        1751
+----------------------------------------
+ÊâÄÊúâ‰ªªÂä°Â∑≤ÂÆåÊàê„ÄÇ

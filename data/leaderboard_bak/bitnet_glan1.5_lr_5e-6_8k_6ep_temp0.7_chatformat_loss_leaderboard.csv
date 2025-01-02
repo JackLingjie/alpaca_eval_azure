@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+bitnet,25.15527950310559,1.5264757533052824,community,1957,201,601,3,805,25.15527950310559,26.27391190786092,0.02838429051469192

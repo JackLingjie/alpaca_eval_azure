@@ -1,0 +1,7 @@
+执行参数: glan1.5_7332_bsz128_2e5
+文件 data/glan1.5_7332_bsz128_2e5.json 存在，跳过  gen_answer.py 执行。
+df: data/glan1.5_7332_bsz128_2e5.json
+                         length_controlled_winrate  win_rate  standard_error  n_total  avg_length
+glan1.5_7332_bsz128_2e5                      16.27     13.54            1.20      805        1710
+----------------------------------------
+所有任务已完成。

@@ -1,0 +1,7 @@
+执行参数: bitnet_glan1.5_lr_2e-5_8k_6ep_temp0.7_chatformat
+文件 data/bitnet_glan1.5_lr_2e-5_8k_6ep_temp0.7_chatformat.json 存在，跳过  gen_answer.py 执行。
+df: data/bitnet_glan1.5_lr_2e-5_8k_6ep_temp0.7_chatformat.json
+        length_controlled_winrate  win_rate  standard_error  n_total  avg_length
+bitnet                      25.81     23.91            1.50      805        1931
+----------------------------------------
+所有任务已完成。

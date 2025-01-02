@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+Mistral-7B-Instruct-v0.3_tapo_v2_1500,34.6583850931677,1.678305697716639,community,1982,279,526,0,805,34.6583850931677,36.78152420440761,0.1519616196884796

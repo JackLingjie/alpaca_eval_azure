@@ -4,9 +4,25 @@ export CUDA_VISIBLE_DEVICES=0
   
 # 参数列表，每个元素包含model_name, hyperparameter, 和 checkpoint，用逗号分隔  
 PARAMS=(  
+  # "glan_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918,fullft,dpo_epoch2,checkpoint-1168"
+  # "magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918,fullft,dpo_lr5e7,checkpoint-1529"
+  # "magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918,fullft,dpo_lr2e6,checkpoint-1529"
+  # "magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918,fullft,dpo_lr1e6,checkpoint-1529"
+  # "magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918,fullft,dpo_bsz256,checkpoint-764"
+  # "magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918,fullft,dpo_bsz64,checkpoint-3059"
+    # "gemma_glan1.5,.,gemma_glan1.5_default_template_2e5_e2_bsz2k_dpo_bsz32_2e7_1e,checkpoint-6119"
+    # "gemma_glan1.5,.,gemma_glan1.5_default_template_2e5_e2_bsz2k_dpo_bsz64_2e7_1e,checkpoint-3059"
+    # "gemma_glan1.5_tulu3_default_template_2e5_e2_bsz2k_dpo_bsz32_2e7_1e/checkpoint-8300"
+    "gemma_glan1.5,.,gemma_glan1.5_tulu3_default_template_2e5_e2_bsz2k_dpo_bsz32_2e7_1e,checkpoint-8300"
+  # "bitnet_glan2_2048_default_template,fullft_lr2e5_4kstep,sft,checkpoint-3000"
+  # "bitnet_glan2-1108,gemma_glan1.5_default_template_2e5_e2_bsz2k_dpo_bsz128_2e7_1e_dpo_norm_beta5,.,checkpoint-1529"
+  # "bitnet_glan2-1108,gemma_glan1.5_default_template_2e5_e2_bsz2k_dpo_bsz128_2e7_1e,.,checkpoint-1529"
     # "magpie_8b_2048_default_template_dpo,fullft,dpo,checkpoint-2756"
   # "magpie_8b_2048_default_template,fullft_lr2e5_e2,sft,checkpoint-500"
-    "magpie_8b_2048_default_template,fullft_lr2e5_e2,sft,checkpoint-536"
+    # "magpie_8b_2048_default_template,fullft_lr2e5_e2,sft,checkpoint-536"
+    # "magpie_dpo_v0.1_8b_2048_default_template_dpo_ckpt536,fullft,dpo,checkpoint-1529"
+    # "magpie_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918,fullft,dpo,checkpoint-1529"
+    # "glan_dpo_v0.1_8b_2048_default_template_dpo_glanchatv2.1_ckpt9918,fullft,dpo,checkpoint-584"
   # "glanchat_v2.1_8b_2048_default_template,fullft_lr5e6_e3,sft,checkpoint-9918"
   # "glanchat_v2.1_8b_2048_default_template,fullft_lr5e6_e3,sft,checkpoint-8500"
   # "glanchat_v2.1_8b_2048_default_template_8500_dpo,fullft,dpo,checkpoint-2756"
@@ -40,7 +56,7 @@ counter=0
   
 # 遍历模型列表，生成新的文件名  
 for model in "${PARAMS[@]}"; do  
-  if [ $counter -ge 3 ]; then  
+  if [ $counter -ge 2 ]; then  
     break  
   fi  
   # 拼接模型名到log_file后  
