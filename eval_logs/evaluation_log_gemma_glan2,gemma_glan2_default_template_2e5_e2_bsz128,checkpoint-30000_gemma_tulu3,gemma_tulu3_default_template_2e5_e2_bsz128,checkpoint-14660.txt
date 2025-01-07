@@ -1,0 +1,6 @@
+执行参数: gemma_glan2, gemma_glan2_default_template_2e5_e2_bsz128, checkpoint-30000, 
+gemma_glan2_checkpoint-30000_checkpoint-8500
+df: data/gemma_glan2_checkpoint-30000_checkpoint-8500.json
+----------------------------------------
+执行参数: gemma_tulu3, gemma_tulu3_default_template_2e5_e2_bsz128, checkpoint-14660, 
+gemma_tulu3_checkpoint-14660_checkpoint-8500

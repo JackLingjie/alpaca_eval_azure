@@ -1,0 +1,2 @@
+,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+gemma_tulu3_gemma_tulu3_default_template_2e5_e2_bsz128_checkpoint-10000,3.91304347826087,0.6695811494787421,community,1188,29,771,5,805,3.91304347826087,5.125109984693409,0.13136439470843392
